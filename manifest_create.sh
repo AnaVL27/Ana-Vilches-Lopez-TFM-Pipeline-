@@ -11,7 +11,7 @@ MANIFEST=TFM-manifest
 
 
 #Check that this part of the script: 
-
+echo "sample-id,absolute-filepath,direction" > $MANIFEST
 ls *R1* |
   while read sample
     do
